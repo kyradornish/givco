@@ -1,0 +1,16 @@
+<div fxLayout="column" class="login" fxLayoutAlign="start center">
+  <div fxFlex class="login-header">LOGIN</div>
+  <div fxFlex class="login-details">
+    <div fxLayout="row" class="section-title">Email: </div>
+    <div fxLayout="row">
+        <input type="email" name="email" />
+    </div>
+    <div fxLayout="row" class="section-title">Password: </div>
+    <div fxLayout="row">
+        <input type="password" name="password" />
+    </div>
+    <div fxLayout="column" fxLayoutAlign="start center">
+      <div class="button" (click)="onLogin()">Submit</div>
+    </div>
+  </div>
+</div>

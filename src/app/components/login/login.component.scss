@@ -1,0 +1,27 @@
+.login{
+  .login-header{
+    color: darkblue;
+  }
+  .login-details {
+    background-color: #FFF;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 2px red;
+    padding: 40px;
+
+    .section-title {
+      padding-bottom:10px;
+    }
+    
+    input {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      align-content: center;
+      border: 1px solid black;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+}
