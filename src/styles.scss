@@ -5,7 +5,8 @@
 }
 
 html, body, #root {
-  background-color: #E0ECF8;
+  background-color: #fcfcfc;
+  color: #363636;
   height: 100%;
   margin: 0;
 }
@@ -15,8 +16,4 @@ button {
   background-color: #F5D0A9;
   color: gray;
   box-shadow: 2px 3px 8px #888888;
-}
-
-.material-icons {
-  font-size: 38px;
 }

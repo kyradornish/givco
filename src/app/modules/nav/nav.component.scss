@@ -1,0 +1,26 @@
+.nav-container {
+  border-top: 1px solid #ebf2fa;
+  background: #fff;
+  padding: 12px 50px;
+
+  a {
+    cursor: pointer;
+    color: #4287f5;
+
+    &:hover,
+    &:link,
+    &:visited {
+      color: #4287f5;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: black;
+    }
+  }
+
+  .nav-icon {
+    cursor: pointer;
+    font-size: 38px;
+  }
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-org-card',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrgCardComponent implements OnInit {
 
+  @Input() org: any;
+
   constructor() { }
 
   ngOnInit() {
+    console.log('org', this.org);
   }
 
 }

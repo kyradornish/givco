@@ -2,7 +2,7 @@
   <div fxLayout="row">
     <app-counter></app-counter>
   </div>
-  <div fxLayout="row">
-    <app-org-card></app-org-card>
+  <div fxLayout="row" *ngFor="let org of currentOrgs" class="org-card">
+    <app-org-card [org]="org"></app-org-card>
   </div>
 </div>

@@ -1,0 +1,28 @@
+.org-container {
+  border: 1px solid #ebf2fa;
+  background-color: white;
+  border-radius: 3px;
+  padding-bottom: 5px;
+
+  .vote {
+    padding-left: 0 0 5px 5px;
+
+    .vote-icon {
+      color: #55bd4b;
+    }
+  }
+
+  .org-details {
+    padding: 10px 20px 0 20px;
+
+    .org-name {
+      font-size: 18px;
+    }
+    
+    hr {
+      margin: 0;
+      margin-bottom: 5px;
+      border: 0.5px solid #55bd4b;
+    }
+  }
+}
