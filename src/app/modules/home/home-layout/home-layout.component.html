@@ -2,6 +2,9 @@
   <div fxLayout="row">
     <app-counter></app-counter>
   </div>
+  <div class="voting">
+    This week's line up
+  </div>
   <div fxLayout="row" *ngFor="let org of currentOrgs" class="org-card">
     <app-org-card [org]="org"></app-org-card>
   </div>

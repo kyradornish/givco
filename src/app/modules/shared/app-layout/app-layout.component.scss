@@ -1,16 +1,17 @@
 app-header {
   height: 10vh;
-  width: 100%;
   overflow: hidden;
+  width: 100%;
 }
 
-app-home-layout {
-  height: 80vh;
-  width: 100%;
+.main-layout {
+  height: 83vh;
   overflow-y: auto;
+  width: 100%;
 }
 
 app-nav {
-  height: 10vh;
+  height: 7vh;
   width: 100%;
+
 }

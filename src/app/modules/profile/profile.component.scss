@@ -1,0 +1,44 @@
+.profile-container {
+  width: 100%;
+  
+  .name-section {
+    background-color: #4287f5;
+    padding: 50px 25px;
+    color: white;
+  }
+
+  .voting-record {
+    padding: 25px;
+    color: gray;
+
+    .record-number {
+      color: #55bd4b;
+      font-size: 3em;
+    }
+  }
+
+  .details {
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 5px;
+
+    .details-header {
+      padding: 5px 25px;
+      font-size: 16px;
+    }
+
+    .account-info {
+      padding-left: 25px;
+      
+      .email, .payment {
+        font-size: 0.75em;
+        color: #55bd4b;
+      }
+    }
+  }
+  
+  .hr-section {
+    border: 1px solid #ebf2fa;
+  }
+}

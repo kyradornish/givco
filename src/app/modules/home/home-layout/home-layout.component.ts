@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import mockData from './../../../assets/mockData'; //TODO figure out how to do absolute paths
+import mockData from '../../../../assets/mockData'; //TODO figure out how to do absolute paths
 
 @Component({
   selector: 'app-home-layout',

@@ -1,16 +1,21 @@
 <div fxLayout="column" class="login" fxLayoutAlign="start center">
-  <div fxFlex class="login-header">LOGIN</div>
-  <div fxFlex class="login-details">
+  <div fxLayout="column" class="header-container" fxLayoutAlign="end center">
+    <div fxLayout="row" class="logo">
+      GIVCO
+    </div>
+  </div>
+  <div fxLayout="column" class="login-details">
     <div fxLayout="row" class="section-title">Email: </div>
     <div fxLayout="row">
-        <input type="email" name="email" />
+      <input type="email" name="email" />
     </div>
     <div fxLayout="row" class="section-title">Password: </div>
     <div fxLayout="row">
-        <input type="password" name="password" />
+      <input type="password" name="password" />
     </div>
-    <div fxLayout="column" fxLayoutAlign="start center">
-      <div class="button" (click)="onLogin()">Submit</div>
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <div class="button" (click)="onLogin()">Log In</div>
     </div>
+    <div class="register" routerLink="/register">Create An Account</div>
   </div>
 </div>

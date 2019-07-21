@@ -1,4 +1,4 @@
-.login{
+.register{
   .header-container {
     background-color: #4287f5;
     color: white;
@@ -13,7 +13,7 @@
     }
   }
 
-  .login-details {
+  .register-details {
     background-color: #FFF;
     border: 1px solid #ebf2fa;
     border-radius: 3px;
@@ -29,7 +29,7 @@
       margin-bottom: 20px;
     }
 
-    .button {
+    .register {
       align-content: center;
       background-color: #4287f5;
       border: 1px solid #4287f5;
@@ -41,18 +41,5 @@
       min-width: 150px;
       text-align: center;
     }
-  }
-
-  .register {
-    background-color: white;
-    color: #4287f5;
-    // font-weight: bold;
-    border: 1px solid #ebf2fa;
-    border-radius: 3px;
-    padding: 5px 10px;
-    margin-top: 10px;
-    min-width: 150px;
-    font-weight: 525;
-    text-align: center;
   }
 }

@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
 
   onLogin() {
     console.log('hitting on login');
-    this.router.navigate(['']);
+    this.router.navigate(['home']);
   }
 
 }
