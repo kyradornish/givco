@@ -1,5 +1,6 @@
 .profile-container {
   width: 100%;
+  margin: 0;
   
   .name-section {
     background-color: #4287f5;
@@ -8,7 +9,7 @@
   }
 
   .voting-record {
-    padding: 25px;
+    padding: 25px 50px;
     color: gray;
 
     .record-number {
@@ -22,14 +23,17 @@
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding-top: 5px;
+    margin-top: 10px;
 
     .details-header {
       padding: 5px 25px;
       font-size: 16px;
+      margin-bottom: 5px;
     }
 
     .account-info {
       padding-left: 25px;
+      margin-bottom: 5px;
       
       .email, .payment {
         font-size: 0.75em;
@@ -40,5 +44,12 @@
   
   .hr-section {
     border: 1px solid #ebf2fa;
+    margin-bottom: 5px;
+  }
+
+  .logout {
+    color: gray;
+    font-size: 16px;
+    margin: 10px;
   }
 }

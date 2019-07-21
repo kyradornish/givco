@@ -1,8 +1,8 @@
 <div fxLayouyt="column" class="profile-container">
-  <div fxLayout="row" class="name-section">
+  <div class="name-section">
     NAME NAMENAME
   </div>
-  <div fxLayout="row" class="voting-record" fxLayoutAlign="space-between center">
+  <div class="voting-record" fxLayoutAlign="space-between center">
     <div fxLayout="column" fxLayoutAlign="center center">
       <div class="record-number">5</div>
       <div>times voted</div>
@@ -12,48 +12,33 @@
       <div>vote streak</div>
     </div>
   </div>
-  <div fxLayout="row" class="details">
-    <div fxFlex fxLayout="column">
-      <div>
-        <span class="details-header">Account Info</span>
-        <div class="hr-section"></div>
-        <div class="account-info">
-          <div class="email">
-            email
-          </div>
-          example@email.com
-        </div>
-        <div class="hr-section"></div>
-        <div class="account-info">
-          <div class="payment">
-            payment info
-          </div>
-          **** **** **** 0009
-        </div>
-        <div class="hr-section"></div>
+  <div class="details">
+    <div class="details-header">Account Info</div>
+    <div class="account-info">
+      <div class="email">
+        email
       </div>
-      <div>
-        <span class="details-header">Update Account</span>
-        <div class="hr-section"></div>
-        <div class="account-info">
-          change email
-        </div>
-        <div class="hr-section"></div>
-
-        <div class="account-info">
-          change password
-        </div>
-        <div class="hr-section"></div>
-
-        <div class="account-info">
-          update payment info
-        </div>
+      example@email.com
+    </div>
+    <div class="hr-section"></div>
+    <div class="account-info">
+      <div class="payment">
+        payment info
       </div>
-      <div class="hr-section"></div>
-
-      <div>
-        <span class="details-header" routerLink="/login">Logout</span>
-      </div>
+      **** **** **** 0009
     </div>
   </div>
+  <div class="details">
+    <div class="details-header">Update Account</div>
+    <div class="account-info">change email</div>
+    <div class="hr-section"></div>
+    <div class="account-info">change password</div>
+    <div class="hr-section"></div>
+    <div class="account-info">update payment info</div>
+  </div>
+
+  <div fxLayoutAlign="center center">
+    <span class="logout" routerLink="/login">Logout</span>
+  </div>
+
 </div>
