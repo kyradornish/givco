@@ -15,10 +15,10 @@
 
   .register-details {
     background-color: #FFF;
-    border: 1px solid #ebf2fa;
+    border-bottom: 1px solid #ebf2fa;
     border-radius: 3px;
     box-shadow: 2px red;
-    padding: 40px;
+    padding: 30px;
     margin-top: 20px;
 
     .section-title {
@@ -27,6 +27,10 @@
     
     input {
       margin-bottom: 20px;
+      border: 1px solid #ebf2fa;
+      border-radius: 3px;
+      padding: 10px;
+      width: 70vw;
     }
 
     .register {

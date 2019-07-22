@@ -12,7 +12,6 @@ export class OrgCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('org', this.org);
   }
 
 }

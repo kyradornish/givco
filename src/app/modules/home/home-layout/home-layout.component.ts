@@ -13,9 +13,7 @@ export class HomeLayoutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('mockData', mockData);
     this.currentOrgs = mockData.orderedOrganizations.slice(0, 3);
-    console.log('currentOrgs', this.currentOrgs);
   }
 
 }

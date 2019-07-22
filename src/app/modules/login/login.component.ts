@@ -11,11 +11,9 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    console.log('hittig oninit');
   }
 
   onLogin() {
-    console.log('hitting on login');
     this.router.navigate(['home']);
   }
 
